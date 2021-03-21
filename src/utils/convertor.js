@@ -1,0 +1,1 @@
+export const pxToRem = px => `${px / 22.5}rem`;

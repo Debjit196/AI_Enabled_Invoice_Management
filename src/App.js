@@ -8,7 +8,7 @@ export default function App() {
     </div>
   );
 }
-ter";
+
 import theme,{pxToRem} from '../src/utils/theme';
 import { makeStyles } from '@material-ui/core';
 import CollectorDashboard from '../src/views/CollectorDashboard';
@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
     width: 100,
   },
 }));
-const App = () => {
+const App1 = () => {
   console.log('theme', theme);
   const classes = useStyles();
   return (
